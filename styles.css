@@ -1,0 +1,84 @@
+
+/* Body Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #faf3f3;
+    color: #333;
+    background-image: url('floral-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Header Styling */
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 5px solid #a3c9a8;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #7b9d6f;
+}
+
+/* Section Styling */
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #a3c9a8;
+}
+
+section h2 {
+    color: #7b9d6f;
+}
+
+/* Floral Divider */
+section:before {
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100px;
+    margin: 0 auto;
+    background-image: url('floral-divider.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #faf3f3;
+    border-top: 5px solid #a3c9a8;
+}
+
+footer p {
+    color: #7b9d6f;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Link Styling */
+a {
+    color: #a3c9a8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
