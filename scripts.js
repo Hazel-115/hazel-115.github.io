@@ -1,6 +1,6 @@
 
 // Countdown Timer
-const weddingDate = new Date("May 12, 2024 12:00:00").getTime();
+const weddingDate = new Date("May 13, 2025 12:00:00").getTime();
 
 const countdownTimer = setInterval(function () {
     const now = new Date().getTime();
